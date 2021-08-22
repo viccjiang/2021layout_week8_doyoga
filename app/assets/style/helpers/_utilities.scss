@@ -14,6 +14,19 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes
     ),
+    "font-weight": (
+      responsive: true, //new
+      property: font-weight,
+      class: fw,
+      values: (
+        light: $font-weight-light,
+        lighter: $font-weight-lighter,
+        regular: $font-weight-regular,//new
+        medium: $font-weight-medium,//new
+        bold: $font-weight-bold,
+        bolder: $font-weight-bolder
+      )
+    ),
 
     "width": (
       responsive: true,
@@ -21,21 +34,22 @@ $utilities: map-merge(
       class: w,
       values: (
         30: 30%,
-            35: 35%,
-            40: 40%,
-            45: 45%,
-            55: 55%,
-            60: 60%,
-            65: 65%,
-            70: 70%,
-            80: 80%,
-            85: 85%,
-            90: 90%,
-            95: 95%,
+        35: 35%,
+        40: 40%,
+        45: 45%,
+        55: 55%,
+        60: 60%,
+        65: 65%,
+        70: 70%,
+        80: 80%,
+        85: 85%,
+        90: 90%,
+        95: 95%,
         100: 100%,
         auto: auto
       )
     ),
+   
     
   ),
   $utilities

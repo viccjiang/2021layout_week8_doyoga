@@ -1,24 +1,18 @@
 .logo {
-	&--white {
-		background-image: url(../../images/DOYOGA-logo.png);
+	background-image: url(../../../assets/images/photo-1552196527-9a20ba4db2c3.jpeg);
+	height: 50vh;
 		@include media-breakpoint-up(md){
-			background-image: url(../../images/DOYOGA-logo@2x.png);
+			background-image: url(../../../assets/images/photo-1593810451137-5dc55105dace.jpeg);
+			height: 30vh;
 		}
 	}
-	&--primary {
-		background-image: url(../../images/DOYOGA.png);
-		@include media-breakpoint-up(md){
-			background-image: url(../../images/DOYOGA@2x.png);
-		}
-	}
-}
 
 .bgCoverCenter{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 .object-fit{
-  object-fit: cover;
+	object-fit: cover;
 }

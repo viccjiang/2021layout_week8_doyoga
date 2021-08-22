@@ -1,0 +1,24 @@
+.logo {
+	&--white {
+		background-image: url(../../images/DOYOGA-logo.png);
+		@include media-breakpoint-up(md){
+			background-image: url(../../images/DOYOGA-logo@2x.png);
+		}
+	}
+	&--primary {
+		background-image: url(../../images/DOYOGA.png);
+		@include media-breakpoint-up(md){
+			background-image: url(../../images/DOYOGA@2x.png);
+		}
+	}
+}
+
+.bgCoverCenter{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.object-fit{
+  object-fit: cover;
+}

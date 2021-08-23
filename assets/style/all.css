@@ -646,8 +646,8 @@ progress {
 .container-xl,
 .container-xxl {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.9375);
-  padding-left: var(--bs-gutter-x, 0.9375);
+  padding-right: var(--bs-gutter-x, 0.9375rem);
+  padding-left: var(--bs-gutter-x, 0.9375rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -683,7 +683,7 @@ progress {
 }
 
 .row {
-  --bs-gutter-x: 1.875;
+  --bs-gutter-x: 1.875rem;
   --bs-gutter-y: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5938,7 +5938,7 @@ fieldset:disabled .btn {
 }
 
 .card-group > .card {
-  margin-bottom: 0.9375;
+  margin-bottom: 0.9375rem;
 }
 
 @media (min-width: 576px) {
@@ -6930,7 +6930,7 @@ fieldset:disabled .btn {
 }
 
 .toast-container > :not(:last-child) {
-  margin-bottom: 0.9375;
+  margin-bottom: 0.9375rem;
 }
 
 .toast-header {
@@ -17170,20 +17170,28 @@ img {
   vertical-align: middle;
 }
 
-.logo {
-  background-image: url(../../assets/images/photo-1552196527-9a20ba4db2c3.jpeg);
+header .logo {
+  width: 96px;
+  height: 31px;
+  background-image: url("../../../assets/images/DOYOGA-logo.png");
 }
 
-@media (min-width: 768px) {
-  .logo {
-    background-image: url(../../assets/images/photo-1593810451137-5dc55105dace.jpeg);
-  }
+footer .logo {
+  width: 96px;
+  height: 31px;
+  background-image: url("../../../assets/images/DOYOGA.png");
 }
 
-.bgCoverCenter {
+.bgcover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.text-hide {
+  text-indent: 110%;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .object-fit {
@@ -17193,12 +17201,6 @@ img {
 
 .text-hover-white:hover {
   color: #fff;
-}
-
-.index__h1 {
-  color: #004466;
-  font-size: 20px;
-  font-weight: 400;
 }
 
 /*# sourceMappingURL=all.css.map */

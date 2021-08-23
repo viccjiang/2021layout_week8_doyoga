@@ -255,17 +255,17 @@ $spacers: (
   3: $spacer * .75, //12 
   4: $spacer * .875, //14
   5: $spacer ,        //16
-  6: $spacer * 1.25,  // 20
+  6: $spacer * 1.25,  //20
   7: $spacer * 1.5, //24 
-  8: $spacer * 1.75, // 28
-  9: $spacer * 1.875, // 30
-  10: $spacer * 2,   // 32
+  8: $spacer * 1.75, //28
+  9: $spacer * 1.875, //30
+  10: $spacer * 2,   //32
   11: $spacer * 2.25,  //36
-  12: $spacer * 2.5, // 40 
-  13: $spacer * 2.75, // 44 
-  14: $spacer * 3, // 48 
-  15: $spacer * 3.25, // 52
-  16: $spacer * 3.5, // 56
+  12: $spacer * 2.5, //40 
+  13: $spacer * 2.75, //44 
+  14: $spacer * 3, //48 
+  15: $spacer * 3.25, //52
+  16: $spacer * 3.5, //56
   17: $spacer * 3.75, //60
   18: $spacer * 4, //64
 ) !default;
@@ -384,9 +384,11 @@ $border-color:                $gray-300 !default;
 // scss-docs-end border-variables
 
 // scss-docs-start border-radius-variables
-$border-radius:               .25rem !default;//4
+$border-radius:               .25rem !default;
 $border-radius-sm:            .2rem !default;//3.2
 $border-radius-lg:            .3rem !default;//4.8
+$border-radius-xl:             1rem !default;//16
+
 
 $border-radius-pill:          50rem !default;
 // scss-docs-end border-radius-variables

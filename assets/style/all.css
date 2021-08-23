@@ -10600,6 +10600,10 @@ fieldset:disabled .btn {
   border-radius: 0.3rem !important;
 }
 
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
 .rounded-circle {
   border-radius: 50% !important;
 }
@@ -17168,13 +17172,11 @@ img {
 
 .logo {
   background-image: url(../../assets/images/photo-1552196527-9a20ba4db2c3.jpeg);
-  height: 50vh;
 }
 
 @media (min-width: 768px) {
   .logo {
     background-image: url(../../assets/images/photo-1593810451137-5dc55105dace.jpeg);
-    height: 30vh;
   }
 }
 
@@ -17187,6 +17189,10 @@ img {
 .object-fit {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.text-hover-white:hover {
+  color: #fff;
 }
 
 .index__h1 {

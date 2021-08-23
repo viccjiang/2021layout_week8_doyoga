@@ -1,16 +1,15 @@
-.logo {
-	background-image: url(../../assets/images/photo-1552196527-9a20ba4db2c3.jpeg);
-	// height: 50vh; 給高度
-		@include media-breakpoint-up(md){
-			background-image: url(../../assets/images/photo-1593810451137-5dc55105dace.jpeg);
-			// height: 30vh; 給高度
-		}
-	}
 
-.bgCoverCenter{
+
+.bgcover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.text-hide{
+	text-indent: 110%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .object-fit{

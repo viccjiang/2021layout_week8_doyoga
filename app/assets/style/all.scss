@@ -1,4 +1,9 @@
 @import './helpers/bootstrap.scss';
+
 @import './helpers/base';
+
+@import './layout/header';
+@import './layout/footer';
+
 @import './helpers/helper';
-@import './pages/_index.scss';
+@import './pages/index';

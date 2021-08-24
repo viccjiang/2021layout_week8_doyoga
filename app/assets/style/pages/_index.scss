@@ -1,0 +1,15 @@
+.banner {
+    height: 300px;
+    background-image: url('../../../assets/images/photo-1612157777902-5382bc6e864b.jpeg');
+    background-position: bottom center;
+    background-size: cover;
+       
+}
+
+.feature .card-img{
+    height: 100px;
+    @include media-breakpoint-up(lg){
+        height: 420px;
+    }
+
+}

@@ -1,5 +1,3 @@
-
-
 .bgcover{
     background-position: center;
     background-repeat: no-repeat;
@@ -18,4 +16,10 @@
 
 .text-hover-white:hover{
 	color: #fff;
+}
+
+.social-icon {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
 }

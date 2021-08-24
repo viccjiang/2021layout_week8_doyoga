@@ -1,9 +1,10 @@
-@import './helpers/bootstrap.scss';
+// @import './helpers/bootstrap.scss';
+
 
 @import './helpers/base';
+@import './helpers/helper';
 
 @import './layout/header';
 @import './layout/footer';
 
-@import './helpers/helper';
-@import './pages/index';
+@import './pages/_index.scss';

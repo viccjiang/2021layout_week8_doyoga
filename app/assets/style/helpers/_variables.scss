@@ -67,8 +67,8 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #907A7B!default;//$blue !default;
-$secondary:     #C0A4A5 !default; //$gray-600 !default;
+$primary:       #C0A4A5 !default;//$blue !default;
+$secondary:     #907A7B!default; //$gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -460,7 +460,7 @@ $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-regular;//$font-weight-normal !default;
 
-$line-height-base:            1.5 !default;
+$line-height-base:            1.5 !default; 
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
@@ -1112,7 +1112,7 @@ $card-spacer-y:                     $spacer !default;
 $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;
 $card-border-width:                 $border-width !default;
-$card-border-radius:                $border-radius !default;
+$card-border-radius:                $border-radius-xl;//$border-radius !default;
 $card-border-color:                 rgba($black, .125) !default;
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-padding-y:                $card-spacer-y * .5 !default;

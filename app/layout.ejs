@@ -39,9 +39,10 @@
               <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">當月課表</a>
             </li>
           </ul>
-          <div class="text-end d-flex flex-column flex-md-row">
-            <button type="button" class="btn btn-outline-primary text-hover-white rounded-4 me-md-2">立即預約</button>
-            <button type="button" class="btn btn-outline-primary text-hover-white rounded-4">聯絡我們</button>
+          <div class="text-end d-flex flex-column flex-md-row ">
+            <button type="button"
+              class="btn btn-outline-secondary text-hover-white rounded-4 mb-1 mb-sm-0 me-md-2">立即預約</button>
+            <button type="button" class="btn btn-outline-secondary text-hover-white rounded-4">聯絡我們</button>
           </div>
         </div>
 
@@ -50,26 +51,30 @@
     </nav>
   </header>
 
-
+  <div class="social-icon d-none d-md-flex flex-column position-fixed  end-0 pe-6 fs-1 ">
+    <a class="text-secondary" href="#"><i class="bi bi-facebook"></i></a>
+    <a class="text-secondary" href="#"><i class="bi bi-instagram"></i></a>
+    <a class="text-secondary" href="#"><i class="bi bi-messenger"></i></a>
+  </div>
 
 
   <%- contents %>
 
-  <section class="subscript bg-primary border-bottom border-white py-9">
+  <section class="subscript bg-secondary border-bottom border-white py-9">
     <div class="container">
       <div class="row g-0 justify-content-between">
         <div class="col-12 col-md-auto fs-3 align-self-center fw-medium text-white mb-3 mb-md-0">現在訂閱，獲得課程優惠碼！</div>
         <div class="col-12 col-md-auto">
           <form class="d-flex justify-content-md-end">
             <input type="email" class="fs-5  border-0 rounded-start px-5 py-2" placeholder="輸入您的電子信箱">
-            <button type="submit" class="btn btn-secondary fs-4 text-white rounded-0 rounded-end px-6 py-3">訂閱</button>
+            <button type="submit" class="btn btn-primary fs-4 text-white rounded-0 rounded-end px-6 py-3">訂閱</button>
           </form>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class=" bg-primary py-9 text-white">
+  <footer class=" bg-secondary py-9 text-white">
     <div class="container">
       <div class="row">
         <div class="col-6 col-md-3">

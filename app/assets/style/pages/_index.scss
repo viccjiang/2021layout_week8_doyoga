@@ -1,15 +1,19 @@
 .banner {
-    height: 300px;
+    height: 530px;
     background-image: url('../../../assets/images/photo-1612157777902-5382bc6e864b.jpeg');
     background-position: bottom center;
     background-size: cover;
-       
+    @include media-breakpoint-up(md) { height: 585px; }
+    @include media-breakpoint-up(lg) { height: 585px; }
 }
 
 .feature .card-img{
-    height: 100px;
-    @include media-breakpoint-up(lg){
-        height: 420px;
-    }
+    height: 420px;
+    @include media-breakpoint-up(md) { height: 252px; }
+    @include media-breakpoint-up(lg) { height: 420px; }
+    
+}
 
+.teacher-img{
+    height:628px;
 }

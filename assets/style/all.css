@@ -1387,7 +1387,7 @@ img {
 header .logo {
   width: 96px;
   height: 31px;
-  background-image: url("../../../assets/images/DOYOGA-logo.png");
+  background-image: url("../../assets/images/DOYOGA-logo.png");
 }
 
 footer .logo {
@@ -1398,7 +1398,7 @@ footer .logo {
 
 .banner {
   height: 530px;
-  background-image: url("../../../assets/images/photo-1612157777902-5382bc6e864b.jpeg");
+  background-image: url("../../assets/images/photo-1612157777902-5382bc6e864b.jpeg");
   background-position: bottom center;
   background-size: cover;
 }

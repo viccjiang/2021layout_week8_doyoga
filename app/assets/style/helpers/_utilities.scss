@@ -63,7 +63,18 @@ $utilities: map-merge(
         pill: $border-radius-pill
       )
     ),
-   
+    "height": (
+      property: height,
+      responsive: true,
+      class: h,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto
+      )
+    ),
     
   ),
   $utilities

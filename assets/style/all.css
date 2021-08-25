@@ -1390,6 +1390,10 @@ img {
   vertical-align: middle;
 }
 
+.img-hover:hover {
+  opacity: 0.9;
+}
+
 header .logo {
   width: 96px;
   height: 31px;
@@ -1439,6 +1443,44 @@ footer .logo {
 
 .teacher-img {
   height: 628px;
+}
+
+.intro a:hover {
+  color: #C0A4A5;
+}
+
+.plan .card img {
+  height: 243px;
+}
+
+@media (min-width: 576px) {
+  .plan .card img {
+    height: 243px;
+  }
+}
+
+@media (min-width: 768px) {
+  .plan .card img {
+    width: 345px;
+    height: 238px;
+  }
+}
+
+@media (min-width: 992px) {
+  .plan .card img {
+    height: 243px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*# sourceMappingURL=all.css.map */

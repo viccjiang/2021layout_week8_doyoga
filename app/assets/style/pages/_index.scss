@@ -18,3 +18,77 @@
     height:628px;
 }
 
+.intro a:hover{
+    color:#C0A4A5;
+}
+
+.plan{
+
+    .card img{
+        height: 243px;
+      }
+
+    @include media-breakpoint-up(sm) { 
+       
+        .card img{
+            height: 243px;
+          }
+    }    
+      
+    @include media-breakpoint-up(md) { 
+       
+        .card img{
+            width: 345px;
+            height: 238px;
+        }
+    }  
+    @include media-breakpoint-up(lg) {
+        
+      .card img{
+        height: 243px;
+      }
+    }
+
+}
+
+
+
+
+// @media (min-width: 414px) {
+//     .plan .card {
+//       flex-direction: column !important;
+//     }
+//     .plan .card .divide {
+//       width: 100%;
+//     }
+//   }
+  
+//   @media (min-width: 576px) {
+//     .plan .card {
+//       flex-direction: row !important;
+//     }
+//     .plan .card .divide {
+//       width: 50%;
+//     }
+//   }
+
+
+  
+//   @media (min-width: 768px) {
+//     .plan .card {
+//       flex-direction: row !important;
+//     }
+//     .plan .card .divide {
+//       width: 50%;
+//     }
+  
+//   }
+  
+//   @media (min-width: 992px) {
+//     .plan .card {
+//       flex-direction: column !important;
+//     }
+//     .plan .card .divide {
+//       width: 100%;
+//     }
+//   }

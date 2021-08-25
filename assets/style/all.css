@@ -1352,6 +1352,8 @@ p {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
   vertical-align: middle;
 }
 
@@ -1382,6 +1384,10 @@ img {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: 10;
+}
+
+.material-icons {
+  vertical-align: middle;
 }
 
 header .logo {

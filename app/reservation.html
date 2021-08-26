@@ -1,8 +1,112 @@
 ---
-title: Boostrap Index
-layout: ./app/reservation.ejs
+title: Reservation 立即預約
+layout: ./app/layout.ejs
 engine: ejs
 current: reservation
 ---
 
-預約預約來預約
+<section class="reservationstep  mt-14 mt-md-18">
+    <div class="container ">
+        <h2 class="text-center text-secondary fs-3 fs-md-1 fw-regular mb-md-5">立即預約</h2>
+        <ul class="d-flex justify-content-center nav nav-pills  mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item me-md-9" role="presentation">
+                <button class="nav-link active rounded-4 py-md-3 px-md-14" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">選擇方案</button>
+            </li>
+            <li class="nav-item me-md-9" role="presentation">
+                <button class="nav-link rounded-4 py-md-3 px-md-14" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">填寫資料</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-4 py-md-3 px-md-14" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">完成預約</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <section class="plan pt-10 pt-lg-18 pb-14 pb-lg-18">
+                    <div class="container ">
+                        <div class="row d-md-flex flex-md-column d-lg-flex flex-lg-row ">
+                            <div class="col-md-12 col-lg-4 mb-2 ">
+                                <div class="card d-md-flex flex-md-row flex-lg-column ">
+                                    <img class="w-lg-100 card-img-top object-fit  "
+                                        src="./assets/images/woman in white tank top and white leggings bending her body.jpg"
+                                        alt="...">
+                                    <div class="card-body  mt-lg-7">
+                                        <h5 class="card-title text-secondary text-center text-md-start text-lg-center">
+                                            首次體驗</h5>
+                                        <p class="text-primary text-center text-md-start text-lg-center fs-5 my-2">NT
+                                            $450 / 次</p>
+                                        <p class="text-secondary card-text mb-md-12">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+                                        </p>
+                                        <a class="text-white fw-regular d-block btn btn-secondary py-2 stretched-link"
+                                            data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                                            aria-expanded="false" aria-controls="multiCollapseExample1">選擇課程</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-12 col-lg-4 mb-2 ">
+                                <div class="card d-md-flex flex-md-row flex-lg-column">
+                                    <div class="">
+                                        <img class="w-lg-100 card-img-top object-fit"
+                                            src="./assets/images/woman performing yoga.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body mt-lg-7">
+                                        <h5 class="card-title text-secondary text-center text-md-start text-lg-center">
+                                            短期體驗</h5>
+                                        <p class=" text-primary text-center text-md-start text-lg-center fs-5 my-2">NT
+                                            $450 / 次</p>
+                                        <p class="card-text text-secondary mb-md-12">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+                                        </p>
+                                        <a href="#"
+                                            class="text-white fw-regular d-block btn btn-secondary py-2 stretched-link">選擇課程</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-4 mb-2 ">
+                                <div class="card d-md-flex flex-md-row flex-lg-column">
+                                    <div class="">
+                                        <img class="w-lg-100 card-img-top object-fit"
+                                            src="./assets/images/woman in blue leggings and black tank top doing yoga.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="card-body mt-lg-7">
+                                        <h5 class="card-title text-secondary text-center">長期體驗</h5>
+                                        <p class=" text-primary text-center text-md-start text-lg-center fs-5 my-2">NT
+                                            $450 / 次</p>
+                                        <p class="card-text text-secondary mb-md-12">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+                                        </p>
+                                        <a href="#"
+                                            class="text-white fw-regular d-block btn btn-secondary py-2 stretched-link">選擇課程</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="w-100">
+                                Some placeholder content for the first collapse component of this
+                                multi-collapse example. This panel is hidden by default but revealed
+                                when the user activates the relevant trigger.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">填寫資料
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">預約完成
+            </div>
+        </div>
+    </div>
+
+</section>

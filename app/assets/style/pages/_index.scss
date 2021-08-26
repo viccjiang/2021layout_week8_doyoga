@@ -29,25 +29,41 @@
       }
 
     @include media-breakpoint-up(sm) { 
-       
         .card img{
             height: 243px;
           }
     }    
       
     @include media-breakpoint-up(md) { 
-       
         .card img{
             width: 345px;
             height: 238px;
         }
     }  
     @include media-breakpoint-up(lg) {
-        
       .card img{
         height: 243px;
       }
     }
+
+    .card-img-top {
+        border-top-left-radius: calc(1rem - 1px);
+        border-top-right-radius: calc(1rem - 1px);
+       
+          
+        @include media-breakpoint-up(md) { 
+    
+            border-top-left-radius: calc(1rem - 1px);
+            border-bottom-left-radius: calc(1rem - 1px);
+            border-top-right-radius: 0;
+        }  
+        @include media-breakpoint-up(lg) {
+            border-top-left-radius: calc(1rem - 1px);
+            border-top-right-radius: calc(1rem - 1px);
+            border-bottom-left-radius: 0;
+        }
+    }
+    
 
 }
 

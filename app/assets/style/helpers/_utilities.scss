@@ -50,6 +50,8 @@ $utilities: map-merge(
       )
     ),
     "rounded": (
+      responsive: true,
+
       property: border-radius,
       class: rounded,
       values: (
@@ -63,6 +65,35 @@ $utilities: map-merge(
         pill: $border-radius-pill
       )
     ),
+    "rounded-top": (
+      responsive: true,
+
+      property: border-top-left-radius border-top-right-radius,
+      class: rounded-top,
+      values: (null: $border-radius)
+    ),
+    "rounded-end": (
+      responsive: true,
+
+      property: border-top-right-radius border-bottom-right-radius,
+      class: rounded-end,
+      values: (null: $border-radius)
+    ),
+    "rounded-bottom": (
+      responsive: true,
+
+      property: border-bottom-right-radius border-bottom-left-radius,
+      class: rounded-bottom,
+      values: (null: $border-radius)
+    ),
+    "rounded-start": (
+      responsive: true,
+
+      property: border-bottom-left-radius border-top-left-radius,
+      class: rounded-start,
+      values: (null: $border-radius)
+    ),
+
     "height": (
       property: height,
       responsive: true,

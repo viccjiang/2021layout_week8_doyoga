@@ -2,124 +2,225 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boostrap Index</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./assets/style/bootstrap.css">
-    <link rel="stylesheet" href="./assets/style/all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reservation 立即預約</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/style/bootstrap.css">
+  <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
 
 
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light py-8" aria-label="Fourth navbar example">
-            <div class="container">
-                <h1>
-                    <a class="logo d-block bgcover text-hide" href="index.html">DOYOGA </a>
-                </h1>
-                <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                </button>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-8" aria-label="Fourth navbar example">
+      <div class="container">
+        <h1>
+          <a class="logo d-block bgcover text-hide" href="index.html">DOYOGA </a>
+        </h1>
+        <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
 
-                <div class="navbar-collapse  collapse " id="navbarsExample04">
-                    <ul class="navbar-nav  me-auto mb-2 mb-md-0 d-flex justify-content-md-center flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="./course.html">課程介紹</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="surroungings.html">瑜珈空間</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="curriculum.html" tabindex="-1" aria-disabled="true">當月課表</a>
-                        </li>
-                    </ul>
-                    <div class="text-end d-flex flex-column flex-md-row ">
-                        <a href="reservation.html"
-                            class="btn btn-outline-secondary text-hover-white rounded-4 py-2 px-5 mb-1 mb-sm-0 me-md-2">立即預約</a>
-                        <a href="#" type="button"
-                            class="btn btn-outline-secondary text-hover-white rounded-4 py-2 px-5">聯絡我們</a>
+        <div class="navbar-collapse  collapse " id="navbarsExample04">
+          <ul class="navbar-nav  me-auto mb-2 mb-md-0 d-flex justify-content-md-center flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="./course.html">課程介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="surroungings.html">瑜珈空間</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="curriculum.html" tabindex="-1" aria-disabled="true">當月課表</a>
+            </li>
+          </ul>
+          <div class="text-end d-flex flex-column flex-md-row ">
+            <a href="reservation.html"
+              class="btn btn-outline-secondary text-hover-white rounded-4 py-2 px-5 mb-1 mb-sm-0 me-md-2">立即預約</a>
+            <a href="#" type="button" class="btn btn-outline-secondary text-hover-white rounded-4 py-2 px-5">聯絡我們</a>
+          </div>
+        </div>
+
+      </div>
+
+    </nav>
+  </header>
+
+  <div class="social-icon d-none d-md-flex flex-column position-fixed  end-0 pe-6 fs-1 ">
+    <a class="text-secondary" href="#"><i class="bi bi-facebook"></i></a>
+    <a class="text-secondary" href="#"><i class="bi bi-instagram"></i></a>
+    <a class="text-secondary" href="#"><i class="bi bi-messenger"></i></a>
+  </div>
+
+
+  
+<section class="reservationstep  mt-14 mt-md-18">
+    <div class="container ">
+        <h2 class="text-center text-secondary fs-3 fs-md-1 fw-regular mb-md-5">立即預約</h2>
+        <ul class="d-flex justify-content-center nav nav-pills  mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item me-md-9" role="presentation">
+                <button class="nav-link active rounded-4 py-md-3 px-md-14" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">選擇方案</button>
+            </li>
+            <li class="nav-item me-md-9" role="presentation">
+                <button class="nav-link rounded-4 py-md-3 px-md-14" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">填寫資料</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-4 py-md-3 px-md-14" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">完成預約</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <section class="plan pt-10 pt-lg-18 pb-14 pb-lg-18">
+                    <div class="container ">
+                        <div class="row d-md-flex flex-md-column d-lg-flex flex-lg-row ">
+                            <div class="col-md-12 col-lg-4 mb-2 ">
+                                <div class="card d-md-flex flex-md-row flex-lg-column ">
+                                    <img class="w-lg-100 card-img-top object-fit  "
+                                        src="./assets/images/woman in white tank top and white leggings bending her body.jpg"
+                                        alt="...">
+                                    <div class="card-body  mt-lg-7">
+                                        <h5 class="card-title text-secondary text-center text-md-start text-lg-center">
+                                            首次體驗</h5>
+                                        <p class="text-primary text-center text-md-start text-lg-center fs-5 my-2">NT
+                                            $450 / 次</p>
+                                        <p class="text-secondary card-text mb-md-12">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+                                        </p>
+                                        <a class="text-white fw-regular d-block btn btn-secondary py-2 stretched-link"
+                                            data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                                            aria-expanded="false" aria-controls="multiCollapseExample1">選擇課程</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-12 col-lg-4 mb-2 ">
+                                <div class="card d-md-flex flex-md-row flex-lg-column">
+                                    <div class="">
+                                        <img class="w-lg-100 card-img-top object-fit"
+                                            src="./assets/images/woman performing yoga.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body mt-lg-7">
+                                        <h5 class="card-title text-secondary text-center text-md-start text-lg-center">
+                                            短期體驗</h5>
+                                        <p class=" text-primary text-center text-md-start text-lg-center fs-5 my-2">NT
+                                            $450 / 次</p>
+                                        <p class="card-text text-secondary mb-md-12">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+                                        </p>
+                                        <a href="#"
+                                            class="text-white fw-regular d-block btn btn-secondary py-2 stretched-link">選擇課程</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-4 mb-2 ">
+                                <div class="card d-md-flex flex-md-row flex-lg-column">
+                                    <div class="">
+                                        <img class="w-lg-100 card-img-top object-fit"
+                                            src="./assets/images/woman in blue leggings and black tank top doing yoga.jpg"
+                                            alt="...">
+                                    </div>
+                                    <div class="card-body mt-lg-7">
+                                        <h5 class="card-title text-secondary text-center">長期體驗</h5>
+                                        <p class=" text-primary text-center text-md-start text-lg-center fs-5 my-2">NT
+                                            $450 / 次</p>
+                                        <p class="card-text text-secondary mb-md-12">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+                                        </p>
+                                        <a href="#"
+                                            class="text-white fw-regular d-block btn btn-secondary py-2 stretched-link">選擇課程</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="w-100">
+                                Some placeholder content for the first collapse component of this
+                                multi-collapse example. This panel is hidden by default but revealed
+                                when the user activates the relevant trigger.
+                            </div>
+                        </div>
+
                     </div>
-                </div>
 
+                </section>
             </div>
-
-        </nav>
-    </header>
-
-    <div class="social-icon d-none d-md-flex flex-column position-fixed  end-0 pe-6 fs-1 ">
-        <a class="text-secondary" href="#"><i class="bi bi-facebook"></i></a>
-        <a class="text-secondary" href="#"><i class="bi bi-instagram"></i></a>
-        <a class="text-secondary" href="#"><i class="bi bi-messenger"></i></a>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">填寫資料
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">預約完成
+            </div>
+        </div>
     </div>
 
-
-    
-預約預約來預約
+</section>
 
 
 
-    <section class="subscript bg-secondary border-bottom border-white py-9">
-        <div class="container">
-            <div class="row g-0 justify-content-between">
-                <div class="col-12 col-md-auto fs-3 align-self-center fw-medium text-white mb-3 mb-md-0">現在訂閱，獲得課程優惠碼！
-                </div>
-                <div class="col-12 col-md-auto">
-                    <div class="input-group ">
-                        <input type="email" class="form-control  border-0 px-5 py-2" placeholder="輸入您的電子信箱"
-                            aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button type="button" class="btn btn-primary fs-5 border-0 text-white px-1 px-md-5 py-2"
-                            type="button" id="button-addon2">訂閱</button>
-                    </div>
-                    <!-- <form class="d-flex justify-content-md-end">
+  <section class="subscript bg-secondary border-bottom border-white py-9">
+    <div class="container">
+      <div class="row g-0 justify-content-between">
+        <div class="col-12 col-md-auto fs-3 align-self-center fw-medium text-white mb-3 mb-md-0">現在訂閱，獲得課程優惠碼！</div>
+        <div class="col-12 col-md-auto">
+          <div class="input-group ">
+            <input type="email" class="form-control  border-0 px-5 py-2" placeholder="輸入您的電子信箱"
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button type="button" class="btn btn-primary fs-5 border-0 text-white px-1 px-md-5 py-2" type="button"
+              id="button-addon2">訂閱</button>
+          </div>
+          <!-- <form class="d-flex justify-content-md-end">
             <input type="email" class="fs-5  border-0 rounded-start px-5 py-2" placeholder="輸入您的電子信箱">
             <button type="submit" class="btn btn-primary fs-5 text-white  rounded-end px-1 px-md-5 py-2">訂閱</button>
           </form> -->
-                </div>
-            </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <footer class=" bg-secondary py-9 text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-md-3">
-                    <a class="logo d-block bgcover text-hide mb-3" href="index.html">DOYOGA</a>
-                    <ul>
-                        <li><a class="text-white d-block fw-light mb-3" href="course.html">課程介紹</a></li>
-                        <li><a class="text-white d-block fw-light mb-3" href="surroundings.html">瑜珈空間</a></li>
-                        <li><a class="text-white d-block fw-light mb-3 mb-md-0" href="curriculum.html">當月課表</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 order-md-3 col-md-3">
-                    <div class="d-flex justify-content-end">
-                        <a class="text-white fs-4 me-2" href="#">
-                            <i class="bi bi-facebook"></i></a>
-                        <a class="text-white fs-4 me-2" href="#">
-                            <i class="bi bi-instagram"></i></a>
-                        <a class="text-white fs-4" href="#">
-                            <i class="bi bi-messenger"></i></a>
-                    </div>
-                </div>
-                <div class="col-12 order-md-2 col-md-6 text-start text-md-center align-self-end">© 2021. All Rights
-                    Reserved.
-                </div>
-
-            </div>
+  <footer class=" bg-secondary py-9 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <a class="logo d-block bgcover text-hide mb-3" href="index.html">DOYOGA</a>
+          <ul>
+            <li><a class="text-white d-block fw-light mb-3" href="course.html">課程介紹</a></li>
+            <li><a class="text-white d-block fw-light mb-3" href="surroundings.html">瑜珈空間</a></li>
+            <li><a class="text-white d-block fw-light mb-3 mb-md-0" href="curriculum.html">當月課表</a></li>
+          </ul>
         </div>
-    </footer>
+        <div class="col-6 order-md-3 col-md-3">
+          <div class="d-flex justify-content-end">
+            <a class="text-white fs-4 me-2" href="#">
+              <i class="bi bi-facebook"></i></a>
+            <a class="text-white fs-4 me-2" href="#">
+              <i class="bi bi-instagram"></i></a>
+            <a class="text-white fs-4" href="#">
+              <i class="bi bi-messenger"></i></a>
+          </div>
+        </div>
+        <div class="col-12 order-md-2 col-md-6 text-start text-md-center align-self-end">© 2021. All Rights Reserved.
+        </div>
+
+      </div>
+    </div>
+  </footer>
 
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./assets/js/vendors.js"></script>
-    <script src="./assets/js/all.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
 
 </body>
 

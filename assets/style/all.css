@@ -1472,9 +1472,37 @@ footer .logo {
   }
 }
 
+.plan .card-img-top {
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
+}
+
+@media (min-width: 768px) {
+  .plan .card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-bottom-left-radius: calc(1rem - 1px);
+    border-top-right-radius: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .plan .card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+    border-bottom-left-radius: 0;
+  }
+}
+
 .swiper {
   width: 100%;
   height: 100%;
+}
+
+.swiper-slide {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .swiper-slide img {

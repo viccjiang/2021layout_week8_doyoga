@@ -8081,7 +8081,35 @@ textarea.form-control-lg {
   .text-sm-end {
     text-align: right !important; }
   .text-sm-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+  .rounded-sm {
+    border-radius: 0.25rem !important; }
+  .rounded-sm-0 {
+    border-radius: 0 !important; }
+  .rounded-sm-1 {
+    border-radius: 0.2rem !important; }
+  .rounded-sm-2 {
+    border-radius: 0.25rem !important; }
+  .rounded-sm-3 {
+    border-radius: 0.3rem !important; }
+  .rounded-sm-4 {
+    border-radius: 1rem !important; }
+  .rounded-sm-circle {
+    border-radius: 50% !important; }
+  .rounded-sm-pill {
+    border-radius: 50rem !important; }
+  .rounded-top-sm {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important; }
+  .rounded-end-sm {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important; }
+  .rounded-bottom-sm {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important; }
+  .rounded-start-sm {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important; } }
 
 @media (min-width: 768px) {
   .float-md-start {
@@ -8929,7 +8957,35 @@ textarea.form-control-lg {
   .text-md-end {
     text-align: right !important; }
   .text-md-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+  .rounded-md {
+    border-radius: 0.25rem !important; }
+  .rounded-md-0 {
+    border-radius: 0 !important; }
+  .rounded-md-1 {
+    border-radius: 0.2rem !important; }
+  .rounded-md-2 {
+    border-radius: 0.25rem !important; }
+  .rounded-md-3 {
+    border-radius: 0.3rem !important; }
+  .rounded-md-4 {
+    border-radius: 1rem !important; }
+  .rounded-md-circle {
+    border-radius: 50% !important; }
+  .rounded-md-pill {
+    border-radius: 50rem !important; }
+  .rounded-top-md {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important; }
+  .rounded-end-md {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important; }
+  .rounded-bottom-md {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important; }
+  .rounded-start-md {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important; } }
 
 @media (min-width: 992px) {
   .float-lg-start {
@@ -9777,7 +9833,35 @@ textarea.form-control-lg {
   .text-lg-end {
     text-align: right !important; }
   .text-lg-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+  .rounded-lg {
+    border-radius: 0.25rem !important; }
+  .rounded-lg-0 {
+    border-radius: 0 !important; }
+  .rounded-lg-1 {
+    border-radius: 0.2rem !important; }
+  .rounded-lg-2 {
+    border-radius: 0.25rem !important; }
+  .rounded-lg-3 {
+    border-radius: 0.3rem !important; }
+  .rounded-lg-4 {
+    border-radius: 1rem !important; }
+  .rounded-lg-circle {
+    border-radius: 50% !important; }
+  .rounded-lg-pill {
+    border-radius: 50rem !important; }
+  .rounded-top-lg {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important; }
+  .rounded-end-lg {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important; }
+  .rounded-bottom-lg {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important; }
+  .rounded-start-lg {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important; } }
 
 @media (min-width: 1200px) {
   .float-xl-start {
@@ -10625,7 +10709,35 @@ textarea.form-control-lg {
   .text-xl-end {
     text-align: right !important; }
   .text-xl-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+  .rounded-xl {
+    border-radius: 0.25rem !important; }
+  .rounded-xl-0 {
+    border-radius: 0 !important; }
+  .rounded-xl-1 {
+    border-radius: 0.2rem !important; }
+  .rounded-xl-2 {
+    border-radius: 0.25rem !important; }
+  .rounded-xl-3 {
+    border-radius: 0.3rem !important; }
+  .rounded-xl-4 {
+    border-radius: 1rem !important; }
+  .rounded-xl-circle {
+    border-radius: 50% !important; }
+  .rounded-xl-pill {
+    border-radius: 50rem !important; }
+  .rounded-top-xl {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important; }
+  .rounded-end-xl {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important; }
+  .rounded-bottom-xl {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important; }
+  .rounded-start-xl {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important; } }
 
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -11473,7 +11585,35 @@ textarea.form-control-lg {
   .text-xxl-end {
     text-align: right !important; }
   .text-xxl-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+  .rounded-xxl {
+    border-radius: 0.25rem !important; }
+  .rounded-xxl-0 {
+    border-radius: 0 !important; }
+  .rounded-xxl-1 {
+    border-radius: 0.2rem !important; }
+  .rounded-xxl-2 {
+    border-radius: 0.25rem !important; }
+  .rounded-xxl-3 {
+    border-radius: 0.3rem !important; }
+  .rounded-xxl-4 {
+    border-radius: 1rem !important; }
+  .rounded-xxl-circle {
+    border-radius: 50% !important; }
+  .rounded-xxl-pill {
+    border-radius: 50rem !important; }
+  .rounded-top-xxl {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important; }
+  .rounded-end-xxl {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important; }
+  .rounded-bottom-xxl {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important; }
+  .rounded-start-xxl {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important; } }
 
 @media print {
   .d-print-inline {

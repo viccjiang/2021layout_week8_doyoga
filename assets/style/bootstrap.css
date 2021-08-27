@@ -2218,7 +2218,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid #c0a4a5;
   appearance: none;
   color-adjust: exact; }
   .form-check-input[type="checkbox"] {

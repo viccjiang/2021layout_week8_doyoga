@@ -1521,4 +1521,8 @@ footer .logo {
   background-color: #907A7B;
 }
 
+.choose:hover {
+  border: #fff solid 4px;
+}
+
 /*# sourceMappingURL=all.css.map */

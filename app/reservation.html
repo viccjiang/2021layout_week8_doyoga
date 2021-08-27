@@ -113,7 +113,7 @@ current: reservation
                                     <h3 class=" mb-7 mb-lg-10 text-center">選擇課程階級</h3>
                                     <div class="row">
                                         <div class="col-12 col-md-6 col-lg-4 mb-7 mb-lg-0">
-                                            <div class="card bg-primary border-4 border-white">
+                                            <div class=" card bg-primary border-4 border-white">
                                                 <div class="card-body">
                                                     <div class="d-flex justify-content-between">
                                                         <h5 class="card-title fz-7 fw-medium">基礎 Basic</h5>
@@ -133,7 +133,7 @@ current: reservation
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-4 mb-7 mb-lg-0">
-                                            <div class="card bg-primary border-4 border-white">
+                                            <div class="choose card bg-primary border-4 ">
                                                 <div class="card-body">
                                                     <div class="d-flex justify-content-between">
                                                         <h5 class="card-title fz-7 fw-medium">中階 Intermediate</h5>
@@ -154,7 +154,7 @@ current: reservation
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-4 mb-7 mb-lg-0">
-                                            <div class="card bg-primary border-4 border-white">
+                                            <div class="choose card bg-primary border-4 ">
                                                 <div class="card-body">
                                                     <div class="d-flex justify-content-between">
                                                         <h5 class="card-title fz-7 fw-medium">高階 Advanced</h5>
@@ -200,7 +200,86 @@ current: reservation
             </div>
 
             <!-- 填寫資料 -->
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">填寫資料
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="container">
+                    <h5 class=" text-center text-primary my-10"><span
+                            class="lh-base text-center fs-6 text-dark me-2">您選擇的是</span>
+                        首次體驗課程-基礎</h5>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 col-lg-4 ">
+                            <form>
+                                <fieldset class="text-dark">
+                                    <p>1. 是否接觸過瑜珈?</p>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">是</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">否</label>
+                                    </div>
+
+                                    <p>2. 想改善的生活問題?</p>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">肌耐力不足</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">柔軟度不佳</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                            value="option3">
+                                        <label class="form-check-label" for="inlineCheckbox3">壓力大</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">姿勢不正</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">睡眠品質差</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                            value="option3">
+                                        <label class="form-check-label" for="inlineCheckbox3">注意力不足</label>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                                        <select id="disabledSelect" class="form-select">
+                                            <option>Disabled select</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck"
+                                                disabled>
+                                            <label class="form-check-label" for="disabledFieldsetCheck">
+                                                Can't check this
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid ">
+                                        <button type="button" class="text-white btn btn-primary">送出</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
             </div>
 
             <!-- 預約完成 -->

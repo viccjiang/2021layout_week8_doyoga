@@ -55,3 +55,17 @@ var customswiper = new Swiper('.customswiper', {
     },
   },
 });
+
+const elem = document.querySelector('input[name="datepicker"]');
+const datepicker = new Datepicker(elem, {
+  autohide: true,
+  buttonClass: 'btn primary text-secondary',
+  nextArrow: `<span class="material-icons">
+chevron_right
+</span>`,
+  prevArrow: `<span class="material-icons">
+chevron_left
+</span>`
+});
+
+

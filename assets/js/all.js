@@ -48,4 +48,11 @@ var customswiper = new Swiper('.customswiper', {
     }
   }
 });
+var elem = document.querySelector('input[name="datepicker"]');
+var datepicker = new Datepicker(elem, {
+  autohide: true,
+  buttonClass: 'btn primary text-secondary',
+  nextArrow: "<span class=\"material-icons\">\nchevron_right\n</span>",
+  prevArrow: "<span class=\"material-icons\">\nchevron_left\n</span>"
+});
 //# sourceMappingURL=all.js.map

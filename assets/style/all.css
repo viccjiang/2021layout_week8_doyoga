@@ -1564,4 +1564,16 @@ footer .logo {
   height: 196px;
 }
 
+.course-badge {
+  top: 0;
+  left: 50px;
+}
+
+.course-circle {
+  width: 96px;
+  height: 96px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /*# sourceMappingURL=all.css.map */

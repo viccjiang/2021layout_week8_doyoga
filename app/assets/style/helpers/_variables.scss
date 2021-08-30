@@ -444,6 +444,7 @@ $font-size-root:              null !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default; //14
 $font-size-lg:                $font-size-base * 1.25 !default; //20
+$font-size-xl:                $font-size-base * 2.5 !default; //40
 
 // $font-weight-lighter:         lighter !default;
 // $font-weight-light:           300 !default;
@@ -483,7 +484,8 @@ $font-sizes: (
   5: $h5-font-size, //20
   6: $h6-font-size, //16
   sm: $font-size-sm, //14
-  lg: $font-size-lg //20
+  lg: $font-size-lg, //20
+  xl: $font-size-xl //40
 ) !default;
 // scss-docs-end font-sizes
 
@@ -1153,8 +1155,8 @@ $accordion-button-focus-border-color:     $input-focus-border-color !default;
 $accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
 
 $accordion-icon-width:                    1.25rem !default;
-$accordion-icon-color:                    $accordion-color !default;
-$accordion-icon-active-color:             $accordion-button-active-color !default;
+$accordion-icon-color:                    $white ;//$accordion-color !default;
+$accordion-icon-active-color:             $white ;//$accordion-button-active-color !default;
 $accordion-icon-transition:               transform .2s ease-in-out !default;
 $accordion-icon-transform:                rotate(-180deg) !default;
 

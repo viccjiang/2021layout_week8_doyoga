@@ -51,7 +51,6 @@ $utilities: map-merge(
     ),
     "rounded": (
       responsive: true,
-
       property: border-radius,
       class: rounded,
       values: (
@@ -106,7 +105,18 @@ $utilities: map-merge(
         auto: auto
       )
     ),
+
+    //new
+    "ratio":(
+      property: --bs-aspect-ratio,
+      class: ratio,
+      responsive: true,
+      values: $aspect-ratios,
+    ),
     
   ),
   $utilities
 );
+
+
+

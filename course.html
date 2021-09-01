@@ -132,10 +132,13 @@
                 <div class="row row-cols-2 ">
 
                     <div class="col-12 col-md-6 col-lg-8 mb-9">
-                        <div class="card bg-dark text-white border-0">
-                            <img src="./assets/images/woman doing yoga beside wall.jpg"
-                                class="border-0 rounded-4 course-item-img bgcover object-fit position-relative"
-                                alt="整體健身">
+                        <div class="card bg-dark text-white border-0 ">
+
+                            <a class="data-bs-toggle=" modal" data-bs-target="#exampleModal" href=""> <img
+                                    src="./assets/images/woman doing yoga beside wall.jpg"
+                                    class="border-0 rounded-4 course-item-img bgcover object-fit position-relative"
+                                    alt="整體健身"></a>
+
                             <span
                                 class="course-badge position-absolute  translate-middle badge rounded-pill bg-primary">60
                                 min</span>
@@ -143,8 +146,12 @@
                                 <h5 class="card-title">基礎 Basic</h5>
                                 <p class="card-text">授課老師：Carol Tang</p>
                             </div>
+                            <a class="stretched-link" href="#basicCourse" data-bs-toggle="modal"></a>
                         </div>
                     </div>
+
+
+
 
                     <div class="col-12 col-md-6 col-lg-4 mb-9">
                         <div class="card bg-dark text-white border-0">
@@ -260,7 +267,38 @@
 </section>
 
 
-
+<!-- modal -->
+<div class="modal fade " id="basicCourse" tabindex="-1" aria-labelledby="basicCourseModal" aria-hidden="true">
+    <div class="modal-dialog  modal-width modal-dialog-centered">
+        <div class="modal-content border-0 text-white bg-primary py-8 px-4 py-lg-16 px-lg-14 rounded-4">
+            <div class="modal-body p-0 ">
+                <div class="container p-0">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-7 col-lg-6">
+                            <div class="ratio ratio-1x1  mb-4 mb-md-0">
+                                <img class="rounded-4 h-100 object-fit"
+                                    src="./assets/images/photo-1540206276207-3af25c08abc4.jpeg" alt="teach">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-6">
+                            <h2 class="fw-medium">基礎 Basic</h2>
+                            <div class="d-flex mb-4">
+                                <p class="me-2">授課老師：Carol Tang</p>
+                                <span class="bg-secondary fw-light  text-white rounded-4 py-1 px-5">60
+                                    min</span>
+                            </div>
+                            <p class="mb-4">使用掛布懸掛在半空，進行哈達瑜珈體位法練習 藉由地心引力的重力原理，鍛鍊核心肌群，舒緩脊椎壓力。
+                                訓練身體協調性，深層放鬆身體。
+                                課堂裡老師會視同學狀況安排教導倒立動作，對於不敢嘗試倒立的同學來說，藉由掛布的支持與保護，加上老師細心指導，讓同學能更快掌握。</p>
+                            <button class="btn btn-light "><a class="fs-4 text-secondary"
+                                    href="./reservation.html">立即預約</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

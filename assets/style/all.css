@@ -1358,6 +1358,23 @@
   color: #907A7B;
 }
 
+.modal-width {
+  max-width: 345px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .modal-width {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-width {
+    max-width: 920px;
+  }
+}
+
 ul, ol {
   margin: 0;
   padding: 0;

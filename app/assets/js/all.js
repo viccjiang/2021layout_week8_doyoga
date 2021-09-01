@@ -83,6 +83,27 @@ var customswiper = new Swiper('.course-swiper', {
   },
 });
 
+var courseswiper = new Swiper(".courseswiper", {
+  slidesPerView: 1.5,
+  spaceBetween: 30,
+
+  grid: {
+    rows: 1,
+    fill: 'row'
+  },
+
+  breakpoints: {
+
+    768: {
+      slidesPerView: 3,
+    },
+
+    992: {
+      slidesPerView: 4,
+    }
+  }
+});
+
 const elem = document.querySelector('input[name="datepicker"]');
 const datepicker = new Datepicker(elem, {
   autohide: true,

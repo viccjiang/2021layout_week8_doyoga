@@ -7,13 +7,11 @@
 @import "../../../node_modules/bootstrap/scss/grid";
 
 @import './component/swiper';
+@import './component/datapicker';
 
 @import './helpers/base';
 @import './helpers/helper';
-// @import './mixin/mixin';
 
-@import './layout/header';
-@import './layout/footer';
 
 @import './pages/_index.scss';
 @import './pages/reservation';

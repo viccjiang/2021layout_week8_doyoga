@@ -1350,6 +1350,14 @@
      object-fit: cover;
 }
 
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #907A7B;
+}
+
+.datepicker-picker {
+  color: #907A7B;
+}
+
 ul, ol {
   margin: 0;
   padding: 0;
@@ -1375,6 +1383,19 @@ img {
   vertical-align: middle;
 }
 
+.logo {
+  width: 96px;
+  height: 31px;
+}
+
+.header-logo {
+  background-image: url("../../assets/images/DOYOGA-logo.png");
+}
+
+.footer-logo {
+  background-image: url("../../../assets/images/DOYOGA.png");
+}
+
 .bgcover {
   background-position: center;
   background-repeat: no-repeat;
@@ -1396,6 +1417,10 @@ img {
   color: #fff;
 }
 
+.img-hover:hover {
+  opacity: 0.9;
+}
+
 .social-icon {
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1408,20 +1433,8 @@ img {
   vertical-align: middle;
 }
 
-.img-hover:hover {
-  opacity: 0.9;
-}
-
-header .logo {
-  width: 96px;
-  height: 31px;
-  background-image: url("../../assets/images/DOYOGA-logo.png");
-}
-
-footer .logo {
-  width: 96px;
-  height: 31px;
-  background-image: url("../../../assets/images/DOYOGA.png");
+.btn-hover-opacity:hover {
+  opacity: 0.8;
 }
 
 .banner {
@@ -1523,14 +1536,6 @@ footer .logo {
 
 .choose:hover {
   border: #fff solid 4px;
-}
-
-.datepicker-cell.selected, .datepicker-cell.selected:hover {
-  background-color: #907A7B;
-}
-
-.datepicker-picker {
-  color: #907A7B;
 }
 
 .course-img {

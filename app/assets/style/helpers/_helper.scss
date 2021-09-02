@@ -61,3 +61,12 @@
 .btn-hover-opacity:hover{
             opacity: 0.8;
 }
+
+.margin-negative{
+    margin-left: 0px;
+
+    
+    @include media-breakpoint-up(lg){
+        margin-left: -100px;
+    }
+}

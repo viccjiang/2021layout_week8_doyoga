@@ -1454,6 +1454,16 @@ img {
   opacity: 0.8;
 }
 
+.margin-negative {
+  margin-left: 0px;
+}
+
+@media (min-width: 992px) {
+  .margin-negative {
+    margin-left: -100px;
+  }
+}
+
 .banner {
   height: 530px;
   background-image: url("../../assets/images/photo-1612157777902-5382bc6e864b.jpeg");

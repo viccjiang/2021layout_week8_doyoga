@@ -1447,7 +1447,7 @@ img {
 }
 
 .material-icons {
-  vertical-align: middle;
+  vertical-align: text-top;
 }
 
 .btn-hover-opacity:hover {

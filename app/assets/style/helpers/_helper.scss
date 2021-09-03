@@ -71,6 +71,11 @@
     }
 }
 
-.btn-hover-primary:hover{
-    color: #907A7B;
+.hover-secondary:hover{
+    background-color: #907A7B;
+}
+
+.hover-primary:hover{
+    background-color: #c6adae;;
+    color: #fff;
 }

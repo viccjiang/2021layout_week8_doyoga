@@ -1464,6 +1464,10 @@ img {
   }
 }
 
+.btn-hover-primary:hover {
+  color: #907A7B;
+}
+
 .banner {
   height: 530px;
   background-image: url("../../assets/images/photo-1612157777902-5382bc6e864b.jpeg");
